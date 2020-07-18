@@ -1,5 +1,5 @@
 class Solution {
-    public int[] twoSum(int[] nums, int target) {              //
+    public int[] twoSum(int[] nums, int target) {              // method definition
      
         int [] res =new int [2];                               // holds the result
         
