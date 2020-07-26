@@ -3,7 +3,7 @@ class Solution {                                                                
         
         if (A.length < 1 || A.length > 100 || K < 1 || K > 2000) return -1;       // checking constraints
         int S = -1;                                                               // S to hold the max sum less than k
-        Arrays.sort(A);                                                           // sorting A - log (n) time complexity
+        Arrays.sort(A);                                                           // sorting A - O(nlogn) time complexity
         int left = 0, right = A.length - 1;                                       // initialize two pointers
         
         while (left < right){                                                     // Iterate the array when left overlaps (equals) right
