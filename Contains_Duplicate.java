@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 class Solution {                                                 // java class
     public boolean containsDuplicate(int[] nums) {               // method definition
         HashSet <Integer> set = new HashSet <Integer> ();        // Create object of HashSet
